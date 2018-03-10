@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.womensdayapp.MainActivity"
+    android:background="@drawable/flower">
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="cursive"
+        android:layout_height="wrap_content"
+        android:text="Every women is a flower... that spreads love all over..."
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="494dp"
+        android:layout_marginLeft="30dp"
+        android:background="#c5ea10"
+        android:fontFamily="sans-serif-conden"
+        android:onClick="womensday"
+        android:padding="10dp"
+        android:text="Take the Tour"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+
+
+
+
+</RelativeLayout>
+
